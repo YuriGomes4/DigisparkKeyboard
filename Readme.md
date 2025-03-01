@@ -27,6 +27,7 @@ Supported layouts:
 
 __NOTE1:__ Only en_us and es_es are tested at july 2017.
 __NOTE2:__ tr_tr tested at March 2018. The result is perfect.
+__NOTE3:__ pt_br tested at February 2025.
 
 Download and installation
 =========================
@@ -80,3 +81,6 @@ Open an issue, ask me on twitter to [@ernesto_xload](http://www.twitter.com/erne
 
 Turkish implemented and tested by:
 [@MrKoykiran](https://twitter.com/MrKoykiran/) or visit www.muminkoykiran.com
+
+Brazilian portuguese implemented and tested by:
+[@YuriGomes4](https://github.com/YuriGomes4)
