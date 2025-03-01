@@ -8,6 +8,11 @@
 #define SHIFT 0x80
 #define ALTGR 0x40
 
+#define BSLASH 0x64
+#define BSLASH_MOD 0x00
+#define PIPE 0x64
+#define PIPE_MOD (1<<6)
+
 const unsigned char ascii_to_scan_code_table[] PROGMEM = {
    0x00,             // NUL
    0x00,             // SOH

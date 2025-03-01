@@ -23,6 +23,7 @@ Supported layouts:
 * fr_fr
 * it_it
 * pt_pt
+* pt_br
 
 __NOTE1:__ Only en_us and es_es are tested at july 2017.
 __NOTE2:__ tr_tr tested at March 2018. The result is perfect.
@@ -55,6 +56,7 @@ You can use:
 * kbd_fr_fr
 * kbd_it_it
 * kbd_pt_pt
+* kbd_pt_br
 
 If none is especified en_us is used by default.
 
