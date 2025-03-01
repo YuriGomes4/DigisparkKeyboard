@@ -45,6 +45,9 @@
 #ifdef kbd_pt_pt
 #include "digi_pt_pt.h"
 #endif
+#ifdef kbd_pt_br
+#include "digi_pt_br.h"
+#endif
 #ifdef kbd_tr_tr
 #include "digi_tr_tr.h"
 #endif
@@ -240,14 +243,11 @@ class DigiKeyboardDevice : public Print {
 	
 	uint8_t tmpmodifiers=0;
 	
-	if(chr == '<') {
-      sendKeyStroke(100);
-    }
-    else if(chr == '>') {
-      sendKeyStroke(100, MOD_SHIFT_RIGHT);
+	if(chr == '\\') {
+      sendKeyStroke(BSLASH, BSLASH_MOD);
     }
 	else if(chr == '|') {
-      sendKeyStroke(100, MOD_ALT_RIGHT);
+      sendKeyStroke(PIPE, PIPE_MOD);
     }
     else
     {
